@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yinyisheng.github.io</id>
     <title>所谓自由就是生命的诅咒</title>
-    <updated>2021-01-28T13:30:45.650Z</updated>
+    <updated>2021-01-28T13:39:18.760Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yinyisheng.github.io"/>
     <link rel="self" href="https://yinyisheng.github.io/atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://yinyisheng.github.io/images/avatar.png</logo>
     <icon>https://yinyisheng.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 所谓自由就是生命的诅咒</rights>
+    <entry>
+        <title type="html"><![CDATA[关于『NEET』]]></title>
+        <id>https://yinyisheng.github.io/post/guan-yu-neet/</id>
+        <link href="https://yinyisheng.github.io/post/guan-yu-neet/">
+        </link>
+        <updated>2021-01-28T13:30:47.000Z</updated>
+        <content type="html"><![CDATA[<p>『NEET』是我对人生规划最高级的梦。无论谁问我都这样回答。以前对未来设想模糊，现在逐渐清晰起来，但还不够。<br>
+以前自己写过一些话，<br>
+『人类的所有负面情绪在我看来都是有益处的。嫉妒会迫使自己不断进步，愤怒会让自己明白自己弱小，痛苦会让自己清醒，焦虑是因为问题解决不了自我时刻提醒，紧张是因为重视，这会迫使你反复不断尝试练习，沮丧是认知到自身差距，悲伤是为了让人明白人间不只有欢乐。用身体记住这些情绪，然后努力成长』<br>
+现在我想把后面补上，<br>
+『但生活里的爱、温柔、希望和感动才是驾驭负面情感，在这个堕落世界不被冲击动摇的基石。没有这些保护，那些负面情绪只会造成无尽的创伤和破坏』<br>
+感动带来的震撼冲击改变是最高级的，我从反感宅男到死宅、从路人到球迷，除了最初对自己所说的“一定要接触更多的世界”，更重要的是，我获得了足以撼动心灵的感动。感动之猛烈可以让我轻易转变自己想法身份，去参与那份感动。<br>
+感动如果不生根发芽撕裂顽石，那就等同从未见过。<br>
+我很喜欢朝日娘，就是因为她温柔背后的强大让我动容。<br>
+『NEET』只是个说法，是指想要的自由，可以积极去做的自由，免于去做的自由，肉身不被捆绑的自由，精神不被奴役的自由。人应该是自由的。<br>
+还是感觉最近问题太多了，明明是想着让梦落地，却变成了连做梦都难的痛苦。<br>
+让梦落地，就要先让自己成为梦的一部分。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[人生信念五十条]]></title>
         <id>https://yinyisheng.github.io/post/ren-sheng-xin-nian-wu-shi-tiao/</id>
