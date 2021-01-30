@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yinyisheng.github.io</id>
     <title>所谓自由就是生命的诅咒</title>
-    <updated>2021-01-30T03:42:42.708Z</updated>
+    <updated>2021-01-30T03:49:05.443Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yinyisheng.github.io"/>
     <link rel="self" href="https://yinyisheng.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2021, 所谓自由就是生命的诅咒</rights>
     <entry>
         <title type="html"><![CDATA[关于『NEET』]]></title>
-        <id>https://yinyisheng.github.io/post/guan-yu-neet/</id>
-        <link href="https://yinyisheng.github.io/post/guan-yu-neet/">
+        <id>https://yinyisheng.github.io/guan-yu-neet/</id>
+        <link href="https://yinyisheng.github.io/guan-yu-neet/">
         </link>
         <updated>2021-01-28T13:30:47.000Z</updated>
         <content type="html"><![CDATA[<p>『NEET』是我对人生规划最高级的梦。无论谁问我都这样回答。以前对未来设想模糊，现在逐渐清晰起来，但还不够。<br>
@@ -31,8 +31,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[人生信念五十条]]></title>
-        <id>https://yinyisheng.github.io/post/ren-sheng-xin-nian-wu-shi-tiao/</id>
-        <link href="https://yinyisheng.github.io/post/ren-sheng-xin-nian-wu-shi-tiao/">
+        <id>https://yinyisheng.github.io/ren-sheng-xin-nian-wu-shi-tiao/</id>
+        <link href="https://yinyisheng.github.io/ren-sheng-xin-nian-wu-shi-tiao/">
         </link>
         <updated>2021-01-28T13:07:50.000Z</updated>
         <content type="html"><![CDATA[<p>1、意志力这种东西不存在。所谓的努力提高自我意志力，背后是不断消耗的自我欲望。承认吧，任何一件需要你调动意志力的事，背后都是甘愿忍耐接受现实。只有无法忍耐现在痛苦的人，不惜一切也要改变，憎恨现在的自我超过一切，那么就不需要任何意志力。没有打破现状的痛苦是不断推着你走的源动力。<br>
@@ -93,8 +93,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于长跑]]></title>
-        <id>https://yinyisheng.github.io/post/guan-yu-chang-pao/</id>
-        <link href="https://yinyisheng.github.io/post/guan-yu-chang-pao/">
+        <id>https://yinyisheng.github.io/guan-yu-chang-pao/</id>
+        <link href="https://yinyisheng.github.io/guan-yu-chang-pao/">
         </link>
         <updated>2021-01-28T12:40:50.000Z</updated>
         <content type="html"><![CDATA[<p>美国哈佛大学研究出的「一个人成为废物的9大特质」1、犹豫不决2、拖延3、3分钟热度4、害怕被拒绝5、自我设限6、逃避现实8、恐惧9、拒绝学习<br>
