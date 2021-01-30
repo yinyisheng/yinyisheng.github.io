@@ -1,193 +1,149 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" >
+<html lang="zh">
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>关于 | 所谓自由就是生命的诅咒</title>
+<title>关于 - 所谓自由就是生命的诅咒</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://yinyisheng.github.io/favicon.ico?v=1611996933629">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://yinyisheng.github.io/favicon.ico?v=1611996215504">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://yinyisheng.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
 
 
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
 
-  
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
-
-
-    <meta name="description" content="
-欢迎来到我的小站呀，很高兴遇见你！🤝
-
-🏠 关于本站
-这个博客是为了安放一些记忆而开设的，微博屡次被炸，其他平台又各种审核，只好自己搭建博客。去年12月时候搭建了一个博客，结果因为某些原因没弄好，最后放弃了。现在又重新弄了这个博客。
-..." />
-    <meta name="keywords" content="" />
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://yinyisheng.github.io">
-        <img src="https://yinyisheng.github.io/images/avatar.png?v=1611996215504" class="site-logo">
-        <h1 class="site-title">所谓自由就是生命的诅咒</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <a href="/">
+        <div class="navbar-brand">
+            <img class="user-avatar" src="/images/avatar.png" alt="头像">
+            <div class="site-name gt-c-content-color-first">
+                所谓自由就是生命的诅咒
+            </div>
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav " style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于我
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/friends" class="menu gt-a-link">
+                            友链
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1611996933629" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于我
-          </a>
-        
-      
-        
-          <a href="/friends" class="site-nav">
-            友链
-          </a>
-        
-      
-    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail">
+            <article class="gt-post-content">
+                <div class="post-content">
+                    
+                </div>
+            </article>
+        </div>
+        <br>
+        <div class="site-footer gt-c-content-color-first">
+
+  <div class="social-container">
+
+    <a href="" target="_blank" title="">
+      <i class="fab fa-github gt-c-content-color-first"></i>
+    </a>
+
+    <a href="" target="_blank" title="">
+      <i class="fas fa-blog gt-c-content-color-first"></i>
+    </a>
+
+    <a href="" target="_blank" title="">
+      <i class="fab fa-cuttlefish gt-c-content-color-first"></i>
+    </a>
+
+    <a href="mailto:" title="">
+      <i class="fas fa-envelope gt-c-content-color-first"></i>
+    </a>
+
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      人来到世上，只有一件事是值得付出生命去捍卫去争夺的，那就是去获得意志的自由
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://yinyisheng.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
+  <div class="slogan gt-c-content-color-first">人来到世上，只有一件事是值得付出生命去捍卫去争夺的，那就是去获得意志的自由</div>
+  
+  <div class="footer-info">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  </div>
+  
+  <div>
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a
+        href="https://yinyisheng.github.io/atom.xml" target="_blank">RSS</a></a>
   </div>
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">关于</h2>
-            <div class="post-date">2019-01-25</div>
-            
-            <div class="post-content" v-pre>
-              <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<p>这个博客是为了安放一些记忆而开设的，微博屡次被炸，其他平台又各种审核，只好自己搭建博客。去年12月时候搭建了一个博客，结果因为某些原因没弄好，最后放弃了。现在又重新弄了这个博客。</p>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<p>各个平台都是用“尹亦声”这个ID。来到这个小站的你，应该也是熟悉我的朋友，就不再多介绍了</p>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<p>买过一些塑料小人<br>
-https://www.hpoi.net/user/2283<br>
-有买过一个千早娃，但后期没钱没时间打扮带她出去拍照<br>
-骑行算吗？最远大概骑了50公里，作为解压我很喜欢这个项目<br>
-顶着个小仓朝日头像，自然是黄油狗。但说真的，我推的gal真的蛮少，就没时间玩<br>
-偶尔看看动画纸片人</p>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p>微博主页 https://weibo.com/p/1005056856550084/home?from=page_100505&amp;mod=TAB#place</p>
-<p>长毛象：@yisheng@alive.bar</p>
-
-            </div>
-            
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
-
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-
-      var gitalk = new Gitalk({
-        clientID: '5d120427858553cbec78',
-        clientSecret: '1c9e560dcd37c32eecd3b4ebe651546bff4f2a72',
-        repo: 'yinyisheng.github.io',
-        owner: 'yinyisheng',
-        admin: ['yinyisheng'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
-
-
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>
