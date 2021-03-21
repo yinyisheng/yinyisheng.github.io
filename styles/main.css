@@ -2010,3 +2010,7 @@ code::-webkit-scrollbar-thumb:hover {
           background-color: #ffffff!important;
         }
          
+      .toc-container {
+        display: none;
+      }
+    

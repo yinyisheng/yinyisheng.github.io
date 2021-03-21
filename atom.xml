@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yinyisheng.github.io</id>
     <title>生命的诅咒</title>
-    <updated>2021-01-31T23:41:56.462Z</updated>
+    <updated>2021-03-21T08:28:06.484Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yinyisheng.github.io"/>
     <link rel="self" href="https://yinyisheng.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://yinyisheng.github.io/images/avatar.png</logo>
     <icon>https://yinyisheng.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 生命的诅咒</rights>
+    <entry>
+        <title type="html"><![CDATA[需要修正的有]]></title>
+        <id>https://yinyisheng.github.io/YZhQ7DdtU/</id>
+        <link href="https://yinyisheng.github.io/YZhQ7DdtU/">
+        </link>
+        <updated>2021-02-01T22:08:07.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[曾做过的五十件事]]></title>
+        <id>https://yinyisheng.github.io/-TvqyxeQ5/</id>
+        <link href="https://yinyisheng.github.io/-TvqyxeQ5/">
+        </link>
+        <updated>2021-02-01T21:08:17.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日常标准化准则]]></title>
+        <id>https://yinyisheng.github.io/MxBk-Kk-6/</id>
+        <link href="https://yinyisheng.github.io/MxBk-Kk-6/">
+        </link>
+        <updated>2021-02-01T10:26:11.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[“不需要让青少年有判断力”“没有祖国你什么都不是”出处]]></title>
         <id>https://yinyisheng.github.io/bu-xu-yao-rang-qing-shao-nian-you-pan-duan-li-he-pi-pan-li-chu-chu/</id>
