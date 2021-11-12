@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yinyisheng.github.io</id>
     <title>生活家</title>
-    <updated>2021-05-27T21:26:19.765Z</updated>
+    <updated>2021-11-12T04:51:11.011Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yinyisheng.github.io"/>
     <link rel="self" href="https://yinyisheng.github.io/atom.xml"/>
@@ -10,13 +10,6 @@
     <logo>https://yinyisheng.github.io/images/avatar.png</logo>
     <icon>https://yinyisheng.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 生活家</rights>
-    <entry>
-        <title type="html"><![CDATA[夜里总会胡思乱想]]></title>
-        <id>https://yinyisheng.github.io/6It2Sb6Gp/</id>
-        <link href="https://yinyisheng.github.io/6It2Sb6Gp/">
-        </link>
-        <updated>2021-05-27T21:19:03.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[隐性疲劳：即使休息也无法消除疲惫感的真面目精简版]]></title>
         <id>https://yinyisheng.github.io/EEXGa6n8P/</id>
