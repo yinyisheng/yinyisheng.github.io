@@ -2,12 +2,12 @@
 
 <head>
     <meta charset="utf-8"/>
-<meta name="description" content="人来到世上，只有一件事是值得付出生命去捍卫去争夺的，那就是去获得意志的自由"/>
+<meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 <title>斯坦福抗疲劳法精简版 | 生活家</title>
 
-<link rel="shortcut icon" href="https://yinyisheng.github.io/favicon.ico?v=1636699871939">
+<link rel="shortcut icon" href="https://yinyisheng.github.io/favicon.ico?v=1636699985925">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://yinyisheng.github.io/styles/main.css">
@@ -29,35 +29,6 @@
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.0/mermaid.min.js"></script>
-<script>
-    var config = {
-        startOnLoad:true,
-        flowchart:{
-            useMaxWidth:false,
-            htmlLabels:true
-        }
-    };
-    mermaid.initialize(config);
-    $(function(){
-        var elements = document.getElementsByClassName("language-mermaid");
-        for (var i = elements.length; i--;) {
-            element = elements[i];
-            var graphDefinition = element.innerText;
-            if (graphDefinition) {
-                var svg = mermaid.render('ha_mermaid_' + i, graphDefinition, function(svg){});
-                if (svg) {
-                    var svgElement = document.createElement('div');
-                    preNode = element.parentNode;
-                    svgElement.innerHTML = svg;
-                    svgElement.setAttribute('class', 'mermaid');
-                    svgElement.setAttribute('data-processed', 'true');
-                    preNode.parentNode.replaceChild(svgElement, preNode);
-                }
-            }
-        }
-    });
-</script>
 </head>
 
 <body>
@@ -120,7 +91,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1636699871939" action="/search/index.html">
+            <form id="gridea-search-form" style="position: relative" data-update="1636699985925" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
             </form>
@@ -579,22 +550,6 @@ AB线相交原本会形成一个端正的X形，这是不会导致疲劳的正�
 就连疲劳耐性极强的候鸟，都知道要备有能消除疲劳的 “工具”。为了培养抗疲劳体质，生活在现代的我们又有什么 理由不做好周全的准备，预防并及时消除疲劳呢？</p>
 
                     </div>
-                    <div class="essaySuffix-box">
-                        <div class="essaySuffix-box-left"><img
-                                src="/images/avatar.png" alt="">
-                        </div>
-                        <div class="essaySuffix-box-right"><span
-                                class="essaySuffix-right-title">本文作者</span>：<strong><span style="font-size: 12px;"><a
-                                        href="/about"
-                                        target="_blank">生活家</a></span></strong> <br><span
-                                style="font-weight: bold; white-space:nowrap;">本文链接</span>：<a
-                                href="https://yinyisheng.github.io/55EtX9498/"
-                                target="_blank">https://yinyisheng.github.io/55EtX9498/</a><br><span
-                                class="essaySuffix-right-title">版权声明</span>：本博客所有文章除特别声明外，均采用 <a
-                                href="https://creativecommons.org/licenses/by-nc-nd/4.0/" alt="BY-NC-SA"
-                                title="BY-NC-SA" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</div>
-                        <div style="clear: both;"></div>
-                    </div>
                 </div>
                 <!-- </div> -->
                 <div class="toc-container">
@@ -602,8 +557,6 @@ AB线相交原本会形成一个端正的X形，这是不会导致疲劳的正�
                 </div>
             </article>
             <!-- </div> -->
-
-          
 
             
             <div class="next-post">
@@ -694,9 +647,8 @@ AB线相交原本会形成一个端正的X形，这是不会导致疲劳的正�
   </div>
   
   <div>
-    <div>
-      Theme by <a href="https://github.com/jxiaow/gridea-theme-pure-fashion" target="_blank">jxiaow</a>, Powered by <a
-              href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://yinyisheng.github.io/atom.xml" target="_blank">RSS</a></a>
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a
+        href="https://yinyisheng.github.io/atom.xml" target="_blank">RSS</a></a>
   </div>
 </div>
 
@@ -710,7 +662,7 @@ AB线相交原本会形成一个端正的X形，这是不会导致疲劳的正�
   if (mainNavLinks == null || mainNavLinks.length == 0) {
     let tocContainer = document.querySelector(".toc-container");
     tocContainer.classList.remove("toc-container")
-    // tocContainer.parentElement.firstElementChild.style.width = "100%"
+    tocContainer.parentElement.firstElementChild.style.width = "100%"
     console.log("隐藏大纲")
   } else {
 
