@@ -1,13 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yinyisheng.github.io</id>
-    <title>生活家</title>
-    <updated>2022-05-04T14:21:04.863Z</updated>
+    <title></title>
+    <updated>2022-08-26T21:50:12.968Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yinyisheng.github.io"/>
     <link rel="self" href="https://yinyisheng.github.io/atom.xml"/>
     <subtitle>人来到世上，只有一件事是值得付出生命去捍卫去争夺的，那就是去获得意志的自由</subtitle>
     <logo>https://yinyisheng.github.io/images/avatar.png</logo>
     <icon>https://yinyisheng.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, 生活家</rights>
+    <rights>All rights reserved 2022, </rights>
+    <entry>
+        <title type="html"><![CDATA[逃避的代价始终要付的，无论多迟。]]></title>
+        <id>https://yinyisheng.github.io/4HCVjv-s8/</id>
+        <link href="https://yinyisheng.github.io/4HCVjv-s8/">
+        </link>
+        <updated>2022-04-03T15:04:58.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021年年终总结 ]]></title>
+        <id>https://yinyisheng.github.io/RsAwZEXnF/</id>
+        <link href="https://yinyisheng.github.io/RsAwZEXnF/">
+        </link>
+        <updated>2021-12-31T14:24:49.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国皮肤清洁指南]]></title>
+        <id>https://yinyisheng.github.io/pPZDT8X1S/</id>
+        <link href="https://yinyisheng.github.io/pPZDT8X1S/">
+        </link>
+        <updated>2021-11-13T07:49:34.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[斯坦福抗疲劳法精简版]]></title>
+        <id>https://yinyisheng.github.io/55EtX9498/</id>
+        <link href="https://yinyisheng.github.io/55EtX9498/">
+        </link>
+        <updated>2021-04-05T05:50:10.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[伴你一生的睡眠指导书]]></title>
+        <id>https://yinyisheng.github.io/thMo1v5xJ/</id>
+        <link href="https://yinyisheng.github.io/thMo1v5xJ/">
+        </link>
+        <updated>2021-03-30T05:33:06.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[饮食术]]></title>
+        <id>https://yinyisheng.github.io/RSqhYOT5n/</id>
+        <link href="https://yinyisheng.github.io/RSqhYOT5n/">
+        </link>
+        <updated>2021-03-27T09:39:50.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[睡眠革命]]></title>
+        <id>https://yinyisheng.github.io/EMJWkljdf/</id>
+        <link href="https://yinyisheng.github.io/EMJWkljdf/">
+        </link>
+        <updated>2021-03-27T09:34:24.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[牧羊少年奇幻之旅个人节选]]></title>
+        <id>https://yinyisheng.github.io/XWgNBA7mi/</id>
+        <link href="https://yinyisheng.github.io/XWgNBA7mi/">
+        </link>
+        <updated>2021-03-21T08:26:47.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“不需要让青少年有判断力”“没有祖国你什么都不是”出处]]></title>
+        <id>https://yinyisheng.github.io/bu-xu-yao-rang-qing-shao-nian-you-pan-duan-li-he-pi-pan-li-chu-chu/</id>
+        <link href="https://yinyisheng.github.io/bu-xu-yao-rang-qing-shao-nian-you-pan-duan-li-he-pi-pan-li-chu-chu/">
+        </link>
+        <updated>2021-01-31T21:06:12.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于『NEET』]]></title>
+        <id>https://yinyisheng.github.io/guan-yu-neet/</id>
+        <link href="https://yinyisheng.github.io/guan-yu-neet/">
+        </link>
+        <updated>2021-01-28T13:30:47.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[人生信念五十条]]></title>
+        <id>https://yinyisheng.github.io/ren-sheng-xin-nian-wu-shi-tiao/</id>
+        <link href="https://yinyisheng.github.io/ren-sheng-xin-nian-wu-shi-tiao/">
+        </link>
+        <updated>2021-01-28T13:07:50.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于长跑]]></title>
+        <id>https://yinyisheng.github.io/guan-yu-chang-pao/</id>
+        <link href="https://yinyisheng.github.io/guan-yu-chang-pao/">
+        </link>
+        <updated>2021-01-28T12:40:50.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://yinyisheng.github.io/-iYnGjA3b/</id>
+        <link href="https://yinyisheng.github.io/-iYnGjA3b/">
+        </link>
+        <updated>2021-01-25T11:09:48.000Z</updated>
+    </entry>
 </feed>
